@@ -29,7 +29,7 @@ class CredencialUtilsV2:
         self.frame = ctk.CTkFrame(master=self.root, corner_radius=10, bg_color=self.main_frame_bg_color, fg_color=self.frame_color)
         self.frame.pack(pady=1, padx=1, fill="x")
 
-        #Frame para o usuário
+        #Frame para o usuário 
         self.frame_user = ctk.CTkFrame(master=self.frame, corner_radius=10, fg_color="transparent")
         self.frame_user.pack(pady=8, padx=10, fill="x")
         
